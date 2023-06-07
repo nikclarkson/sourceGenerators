@@ -24,7 +24,7 @@ namespace NorthDallas.Generators
 
         private string Generate(string name, string constants)
         {
-            var lines = constants.Split(new[]{"\r\n"}, StringSplitOptions.RemoveEmptyEntries);
+            var lines = constants.Split('\n');
 
             var sb = new StringBuilder();
 
@@ -34,8 +34,7 @@ namespace NorthDallas.Generators
 
             foreach (var line in lines)
             {
-                var cleanLine = line.Replace("\r", "");
-                sb.AppendLine($"\t public const string {cleanLine} = \"{cleanLine}\";");
+                sb.AppendLine($"\t public const string {line} = \"{line}\";");
             }
 
             sb.Append("\r\n");
