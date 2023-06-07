@@ -1,3 +1,4 @@
-﻿
-Console.WriteLine(CodeGen.Colors.Blue);
+﻿using CodeGen;
+
+Console.WriteLine(Colors.Blue);
 

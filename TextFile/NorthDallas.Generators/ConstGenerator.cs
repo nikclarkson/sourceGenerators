@@ -28,7 +28,7 @@ namespace NorthDallas.Generators
 
             var sb = new StringBuilder();
 
-            sb.AppendLine("namespace CodeGen;");
+            sb.AppendLine("namespace CodeGen {");
             sb.Append($"public static partial class {name} {{");
             sb.Append("\r\n");
 
@@ -39,7 +39,7 @@ namespace NorthDallas.Generators
             }
 
             sb.Append("\r\n");
-            sb.Append("}");
+            sb.Append("}}");
 
             return sb.ToString();
         }

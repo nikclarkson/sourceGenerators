@@ -5,5 +5,3 @@ Green
 Blue
 Indigo
 Violet
-PapayaWhip
-Camo
