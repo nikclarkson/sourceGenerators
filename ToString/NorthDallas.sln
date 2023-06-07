@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthDallas.App", "NorthDallas.App\NorthDallas.App.csproj", "{F1CBAE12-FD09-4220-8489-FFFEC5C2F6AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthDallas.App", "NorthDallas.App\NorthDallas.App.csproj", "{F1CBAE12-FD09-4220-8489-FFFEC5C2F6AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthDallas.Generators", "NorthDallas.Generators\NorthDallas.Generators.csproj", "{F0403808-9A72-4D3C-9E65-3F1353E41343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthDallas.Generators", "NorthDallas.Generators\NorthDallas.Generators.csproj", "{F0403808-9A72-4D3C-9E65-3F1353E41343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthDallas.Generators.Tests", "NorthDallas.Generators.Tests\NorthDallas.Generators.Tests.csproj", "{445CD6AE-C049-459E-8C52-AF37ABD53901}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F0403808-9A72-4D3C-9E65-3F1353E41343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0403808-9A72-4D3C-9E65-3F1353E41343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0403808-9A72-4D3C-9E65-3F1353E41343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445CD6AE-C049-459E-8C52-AF37ABD53901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445CD6AE-C049-459E-8C52-AF37ABD53901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445CD6AE-C049-459E-8C52-AF37ABD53901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445CD6AE-C049-459E-8C52-AF37ABD53901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
